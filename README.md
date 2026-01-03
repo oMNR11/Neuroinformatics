@@ -2,7 +2,7 @@
 This is a repository for uploading documents and codes (primarily in MATLAB) for the course contents of Neuroinformatics.
 
 I will be following Mike X Cohen's Analyzing Neural Time Series Data
-
+```mermaid
 graph TD
     %% 1. Raw Data & Preprocessing
     subgraph Preprocessing ["Step 1: Signal Processing"]
@@ -50,3 +50,4 @@ graph TD
         LagAssign --> Binning["Average Similarity\nper Lag Bin"]
         Binning --> Graph[("Final Graph:\nNeural Similarity vs. Lag")]
     end
+```
